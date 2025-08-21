@@ -1,0 +1,36 @@
+{
+  "manufacturing": [
+    {
+      "name": "Precision Coating Lines",
+      "description": "State-of-the-art coating equipment ensuring uniform application and consistent quality."
+    },
+    {
+      "name": "Calendaring Systems",
+      "description": "Advanced calendaring technology for precise thickness control and surface finish."
+    },
+    {
+      "name": "Quality Control Systems",
+      "description": "Automated monitoring and control systems maintaining product specifications."
+    }
+  ],
+  "laboratory": [
+    {
+      "name": "Tensile Testing",
+      "description": "Comprehensive strength and elongation testing to international standards."
+    },
+    {
+      "name": "Hydrostatic Head Testing",
+      "description": "Waterproofing performance evaluation under pressure conditions."
+    },
+    {
+      "name": "Peel Adhesion Testing",
+      "description": "Coating adhesion strength measurement ensuring durability."
+    },
+    {
+      "name": "Aging & UV Testing",
+      "description": "Long-term performance evaluation under accelerated aging conditions."
+    }
+  ],
+  "certifications": ["ISO 9001:2015 Quality Management", "REACH Compliance", "RoHS Compliance", "CE Marking"],
+  "capacity": "50,000+ meters per day production capacity"
+}

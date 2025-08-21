@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Transportation",
+    "description": "High-performance fabrics for automotive, marine, and aerospace applications requiring durability and weather resistance.",
+    "icon": "truck"
+  },
+  {
+    "name": "Construction & Infrastructure",
+    "description": "Protective covers, architectural membranes, and industrial curtains for construction and building applications.",
+    "icon": "building"
+  },
+  {
+    "name": "Oil & Gas",
+    "description": "Chemical-resistant and flame-retardant materials for harsh industrial environments and safety applications.",
+    "icon": "fuel"
+  },
+  {
+    "name": "Defense & Security",
+    "description": "Military-grade textiles meeting stringent specifications for protective equipment and tactical applications.",
+    "icon": "shield"
+  },
+  {
+    "name": "Leisure & Sports",
+    "description": "Lightweight, flexible fabrics for outdoor gear, sports equipment, and recreational applications.",
+    "icon": "activity"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "PU Coated Polyester",
+    "summary": "A flexible, abrasion-resistant fabric with excellent tensile strength, water-proofing and UV stability. Ideal for tarpaulins, inflatable structures and protective covers.",
+    "image": "/images/products/PU-Coated-Fabric.jpeg"
+  },
+  {
+    
+    "name": "PVC Coated Polyester",
+    "summary": "Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses.Durable, weatherproof textile with superior chemical resistance; customizable thicknesses..",
+    "image": "/images/products/pvc-coated-fabric.webp"
+  },
+  {
+    "name": "Outdoor Clothing",
+    "summary": "All our outdoor fabrics are available in different colors and weave as per the latest market trends. From plain rip-stops to complex dobby designs, the fabrics can be designed based on the specific needs. The fabric can be coated with UV Protection, Heat Resistant, Fire Retardant, Tear Resistant etc.",
+    "image": "/images/products/outdoor-jacket.jpg"
+  },
+  {
+    "name": "Parachute Fabric",
+    "summary": "Parachute fabric is a lightweight, strong, and tear-resistant material specifically designed to withstand high tension and aerodynamic forces during free fall and canopy deployment.It is made from high-tenacity nylon or polyester yarns with ripstop weave to prevent small tears from spreading. It is often coated with PU (Polyurethane) or silicone for water resistance, Air Permeability Control & UV Resistance.",
+    "image": "/images/products/parachute-2.avif"
+  },
+  {
+    
+    "name": "Armed Forces Fabrics",
+    "summary": "Gear up with Prayosha Impex Armed Forces Fabrics – technologically advanced and exceptionally durable, designed to withstand the harshest conditions for reliable protection. Rugged and necessary, Prayosha Impex fabrics ensure resilience and extra defense, making them a vital choice for armed forces..",
+    "image": "/images/products/military.jpg"
+  },
+  {
+    "name": "Inter Lining Fabrics",
+    "summary": "Upgrade your garment’s allure and durability with Inter lining Fabrics – the layer that adds strength and shape. Ideal for collars, belts, and coat fronts, these fabrics, made from materials like cotton, nylon, polyester, or fleece, are woven, sewn, or felted for a modern touch..",
+    "image": "/images/products/Interlining.webp"
+  }
+]
