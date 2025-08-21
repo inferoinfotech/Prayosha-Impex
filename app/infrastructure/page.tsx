@@ -55,12 +55,12 @@ const UNITS: Unit[] = [
 ];
 
 const FACILITY_IMAGES: { src: string; alt: string }[] = [
-  { src: "/images/facility/IMG_7947.jpg", alt: "Weaving floor with high-speed looms" },
-  { src: "/images/facility/kusumgar-production-capabilities.jpg", alt: "Coating line in operation" },
-  { src: "/images/facility/Picture-2.png", alt: "Calendering rollers for finishing" },
-  { src: "/images/facility/Picture-4.png", alt: "Lamination unit for composites" },
-  { src: "/images/facility/Picture-8.png", alt: "Quality control lab testing setup" },
-  { src: "/images/facility/Picture-10.png", alt: "Finished goods warehouse" },
+  { src: "/images/Facility/IMG_7947.jpg", alt: "Weaving floor with high-speed looms" },
+  { src: "/images/Facility/kusumgar-production-capabilities.jpg", alt: "Coating line in operation" },
+  { src: "/images/Facility/Picture-2.png", alt: "Calendering rollers for finishing" },
+  { src: "/images/Facility/Picture-4.png", alt: "Lamination unit for composites" },
+  { src: "/images/Facility/Picture-8.png", alt: "Quality control lab testing setup" },
+  { src: "/images/Facility/Picture-10.png", alt: "Finished goods warehouse" },
 ];
 
 export default function InfrastructurePage() {
