@@ -281,15 +281,8 @@ export default function ContactPage() {
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary" />
                   <div>
-                    <p className="font-medium">Monday - Friday</p>
-                    <p className="text-sm text-muted-foreground">9:00 AM - 6:00 PM IST</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Clock className="w-5 h-5 text-primary" />
-                  <div>
-                    <p className="font-medium">Saturday</p>
-                    <p className="text-sm text-muted-foreground">9:00 AM - 1:00 PM IST</p>
+                    <p className="font-medium">Monday - Saturday</p>
+                    <p className="text-sm text-muted-foreground">9:00 AM - 8:00 PM IST</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
