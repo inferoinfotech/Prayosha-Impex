@@ -29,21 +29,21 @@ const UNITS: Unit[] = [
     title: "Weaving Unit",
     description:
       "Our state-of-the-art waterjet weaving unit is equipped with high-speed looms to produce premium-quality woven fabrics with exceptional precision and efficiency. We specialize in polyester and nylon base fabrics for technical applications. Installed weaving capacity: ~300,000 m/month.",
-    image: "/images/infrastructure/weaving.jpg",
+    image: "/images/infrastructure/Waterjet-WEaving.jpg",
   },
   {
     key: "coating",
     title: "Coating Unit",
     description:
       "Our coating unit uses advanced knife-over-roll and transfer processes to deliver PU (polyurethane), PVC (polyvinyl chloride), and silicone-coated fabrics. Precision-controlled lines ensure uniform coating thickness, excellent adhesion, and high-performance finishes that meet international standards. Coating enhances durability, flexibility, water resistance, UV stability, and flame-retardant properties—ideal for awnings, tents, umbrellas, rainwear, luggage, and military-grade textiles.",
-    image: "/images/infrastructure/coating.jpg",
+    image: "/images/infrastructure/Coating-Unit.png",
   },
   {
     key: "finishing",
     title: "Finishing Unit",
     description:
       "Our calendering & finishing unit uses heated rollers under controlled pressure to achieve the desired finish, thickness, and surface properties. This process improves smoothness, gloss, and coating adhesion. We also provide embossing, slitting, and precise rewinding to deliver ready-to-use rolls for PU-, PVC-, and silicone-coated fabrics.",
-    image: "/images/infrastructure/finishing.jpg",
+    image: "/images/infrastructure/Calendering-Process.jpg",
   },
   {
     key: "lamination",
