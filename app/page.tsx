@@ -19,6 +19,25 @@ export async function generateMetadata() {
   });
 }
 
+  const MARQUEE_TOP: string[] = [
+    "/images/slider/22.jpg",
+    "/images/slider/air-mesh-fabric-500x500.webp",
+    "/images/slider/awning-2.jpg",
+    "/images/slider/awning.jpg",
+    "/images/slider/bags_and_cases_series_big.jpg",
+    "/images/slider/Cordura-Military-Header_1.jpg",
+    "/images/slider/T2118E_039040_actionshot_1.avif"
+  ];
+
+  const MARQUEE_BOTTOM: string[] = [
+    "/images/slider/download.jpeg",
+    "/images/slider/images-(1).jpeg",
+    "/images/slider/lowsofdundee_lwtranslucentfr_1410625560A.avif",
+    "/images/slider/lowsofdundee_translucentfr_1410624726pag.avif",
+    "/images/slider/luggage-lining.jpg",
+    "/images/slider/outdoor-clothing.jpg",
+    "/images/slider/p2598974.avif",
+  ];
 const iconMap = {
   truck: Truck,
   building: Building,
@@ -32,29 +51,38 @@ function ImageMarqueeRow({
   images,
   reverse = false,
   speedSec = 36,
+  itemClass = "w-108 md:w-116 h-80 md:h-96", // 👈 tile size (default)
+  gap = "gap-6",                             // 👈 spacing between tiles
+  paddingY = "py-4",                         // 👈 vertical padding of the row
 }: {
   images: string[];
   reverse?: boolean;
   speedSec?: number;
+  itemClass?: string;
+  gap?: string;
+  paddingY?: string;
 }) {
   const safeImages = images.length ? images : ["/placeholder.svg"];
   const loop = [...safeImages, ...safeImages]; // duplicate for seamless loop
 
   return (
-    <div className="overflow-hidden py-4">
-      <div className="flex gap-6 whitespace-nowrap [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+    <div className={`overflow-hidden ${paddingY}`}>
+      <div className={`flex ${gap} whitespace-nowrap [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]`}>
         <ul
-          className={`flex gap-6 animate-marquee ${reverse ? "animate-marquee-reverse" : ""}`}
+          className={`flex ${gap} animate-marquee ${reverse ? "animate-marquee-reverse" : ""}`}
           style={{ ["--marquee-duration" as any]: `${speedSec}s` }}
         >
           {loop.map((src, i) => (
-            <li key={`${src}-${i}`} className="relative w-56 md:w-64 h-28 md:h-36 rounded-xl overflow-hidden shadow-sm border border-black/5 bg-white">
+            <li
+              key={`${src}-${i}`}
+              className={`relative ${itemClass} rounded-xl overflow-hidden shadow-sm border border-black/5 bg-white shrink-0`}
+            >
               <Image
                 src={src || "/placeholder.svg"}
                 alt="Marquee"
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 224px, 256px"
+                sizes="(max-width: 768px) 384px, 512px"  // tune if you change widths
                 priority={i < 4}
               />
             </li>
@@ -64,6 +92,7 @@ function ImageMarqueeRow({
     </div>
   );
 }
+
 
 export default function HomePage() {
   // Build arrays of product images for the marquees
@@ -96,11 +125,14 @@ export default function HomePage() {
 
       {/* 2) Full-bleed double image marquee (outside container) */}
       <section className="w-full bg-gray-50 border-y border-black/5">
-        <div className="mx-auto max-w-none">  
-          <ImageMarqueeRow images={productImages} reverse={false} speedSec={34} />
-          <ImageMarqueeRow images={productImages} reverse={true} speedSec={34} />
+        <div className="mx-auto max-w-none">
+          {/* Top: left → right */}
+          <ImageMarqueeRow images={MARQUEE_TOP} reverse={false} speedSec={34} />
+          {/* Bottom: right → left */}
+          <ImageMarqueeRow images={MARQUEE_BOTTOM} reverse={true} speedSec={34} />
         </div>
       </section>
+
 
       {/* 3) Industries We Serve */}
       <Section className="bg-white">
