@@ -54,6 +54,14 @@ const UNITS: Unit[] = [
   },
 ];
 
+const FACILITY_IMAGES: { src: string; alt: string }[] = [
+  { src: "/images/facility/IMG_7947.jpg", alt: "Weaving floor with high-speed looms" },
+  { src: "/images/facility/kusumgar-production-capabilities.jpg", alt: "Coating line in operation" },
+  { src: "/images/facility/Picture-2.png", alt: "Calendering rollers for finishing" },
+  { src: "/images/facility/Picture-4.png", alt: "Lamination unit for composites" },
+  { src: "/images/facility/Picture-8.png", alt: "Quality control lab testing setup" },
+  { src: "/images/facility/Picture-10.png", alt: "Finished goods warehouse" },
+];
 
 export default function InfrastructurePage() {
   return (
@@ -109,15 +117,21 @@ export default function InfrastructurePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {Array.from({ length: 6 }, (_, i) => (
-            <div key={i} className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-500">
-                Facility Image {i + 1}
-              </div>
+          {FACILITY_IMAGES.map((img, i) => (
+            <div key={i} className="relative h-64 rounded-lg overflow-hidden group">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                priority={i < 2}
+              />
             </div>
           ))}
         </div>
       </Section>
+
 
       {/* CTA Section */}
       <Section className="bg-blue-600 text-white">
