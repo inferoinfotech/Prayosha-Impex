@@ -56,10 +56,9 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-300">
-              <p>Industrial Area, Phase-II</p>
-              <p>Chandigarh, India</p>
-              <p>Email: info@prayoshaimpex.com</p>
-              <p>Phone: +91-172-XXXXXXX</p>
+              <p>E-36, LaxmiNarayan Industrial Soc. Udhna-Pandesara Road, Surat, Gujarat, India</p>
+              <p>Email: Akshar@prayoshaimpex.com</p>
+              <p>Phone: +91-9924094842</p>
             </div>
           </div>
         </div>

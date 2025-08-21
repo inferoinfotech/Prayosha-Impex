@@ -36,14 +36,13 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                Founded with a vision to revolutionize the technical textile industry, Prayosha Impex has emerged as a
+                Founded with a vision to revolutionize the technical textile industry in 2017, Prayosha Impex has emerged as a
                 leading manufacturer and exporter of advanced coated fabrics. Our journey began with a simple mission:
                 to deliver high-performance textile solutions that exceed global standards.
               </p>
               <p>
                 Today, we serve diverse industries across Asia, Europe, Americas, and Africa, providing innovative
-                coated fabric solutions that meet the most demanding applications. Our commitment to quality, backed by
-                ISO 9001:2015 certification, ensures that every product meets international standards.
+                coated fabric solutions that meet the most demanding applications. Our commitment to quality ensures that every product meets international standards.
               </p>
               <p>
                 With state-of-the-art manufacturing facilities and a dedicated R&D team, we continue to push the
@@ -108,7 +107,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-center">
-                ISO 9001:2015 certified processes ensuring consistent quality and reliability in every product we
+                Advanced manufacturing processes ensuring consistent quality and reliability in every product we
                 manufacture.
               </CardDescription>
             </CardContent>

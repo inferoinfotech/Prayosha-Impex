@@ -132,20 +132,6 @@ export default function InfrastructurePage() {
         </div>
       </Section>
 
-
-      {/* CTA Section */}
-      <Section className="bg-blue-600 text-white">
-        <div className="text-center">
-          <Calendar className="h-16 w-16 mx-auto mb-6" />
-          <h2 className="text-3xl font-bold mb-4">Schedule a Technical Consultation</h2>
-          <p className="text-xl mb-8 text-blue-100 max-w-3xl mx-auto">
-            Our technical experts are ready to discuss your specific requirements and demonstrate our capabilities.
-          </p>
-          <Button size="lg" variant="secondary" asChild>
-            <Link href="/contact">Contact Our Team</Link>
-          </Button>
-        </div>
-      </Section>
     </>
   );
 }
