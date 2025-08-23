@@ -27,14 +27,13 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-white"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-white"
+        }`}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-600">
+            <Link href="/" className="text-2xl font-bold text-[#0B2B43]">
               Prayosha Impex
             </Link>
           </div>
@@ -45,7 +44,7 @@ export function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
+                  className="px-3 py-2 text-sm font-medium text-[#0B2B43] hover:text-[#7FC6A4] transition-colors"
                 >
                   {item.name}
                 </Link>
@@ -53,8 +52,12 @@ export function Header() {
             </div>
           </div>
 
+
           <div className="hidden md:block">
-            <Button asChild>
+            <Button
+              asChild
+              className="bg-[#0B2B43] text-white hover:bg-[#7FC6A4] hover:text-[#0B2B43]"
+            >
               <Link href="/contact">Get Quote</Link>
             </Button>
           </div>
