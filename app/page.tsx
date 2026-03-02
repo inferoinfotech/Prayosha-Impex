@@ -93,12 +93,12 @@ export default function HomePageClient() {
   return (
     <>
       {/* 1) Full-bleed banner with background image + overlay text */}
-      <section className="relative w-full h-[56vh] md:h-[68vh] lg:h-[78vh]">
+      <section className="relative w-full h-[56vh] md:h-[68vh] lg:h-[90vh]">
         <Image
-          src="/images/hero.jpg"
+          src="/images/about/banner.jpeg"
           alt="Prayosha Impex — Advanced Coated Fabrics"
           fill
-          className="object-cover"
+          className="object-fill"
           priority
         />
         {/* gradient overlay (kept neutral) */}
