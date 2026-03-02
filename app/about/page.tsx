@@ -6,8 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Award, Globe, Leaf, Microscope } from "lucide-react"
 import { motion } from "framer-motion"
 
-export const runtime = "edge"
-
 export default function AboutPage() {
   return (
     <>
@@ -105,18 +103,18 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             whileHover={{ scale: 1.02 }}
           >
-              <div className="absolute inset-0 rounded-2xl overflow-hidden">
-                <Image
-                  src="/images/about/infra.jpeg"
-                  alt="Prayosha Impex — Infrastructure"
-                  fill
-                  className="object-cover rounded-2xl"
-                />
-                <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-br from-[#7FC6A4]/20 to-[#0B2B43]/20 blur-2xl" />
-              </div>
-              <div className="relative z-10 h-full flex items-center justify-center text-gray-500 font-medium sr-only">
-                Company Image Placeholder
-              </div>
+            <div className="absolute inset-0 rounded-2xl overflow-hidden">
+              <Image
+                src="/images/about/infra.jpeg"
+                alt="Prayosha Impex — Infrastructure"
+                fill
+                className="object-cover rounded-2xl"
+              />
+              <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-br from-[#7FC6A4]/20 to-[#0B2B43]/20 blur-2xl" />
+            </div>
+            <div className="relative z-10 h-full flex items-center justify-center text-gray-500 font-medium sr-only">
+              Company Image Placeholder
+            </div>
           </motion.div>
         </div>
       </Section>

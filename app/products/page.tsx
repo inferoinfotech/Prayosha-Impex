@@ -6,8 +6,6 @@ import { Section } from "@/components/site/Section"
 import productsData from "@/data/products.json"
 import { motion } from "framer-motion"
 
-export const runtime = "edge"
-
 type Product = {
   slug?: string
   name: string
